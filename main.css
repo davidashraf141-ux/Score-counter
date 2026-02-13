@@ -1,0 +1,54 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#mainDiv {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.Names {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#labelDiv {
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 80%; 
+    background-color: rgb(74, 73, 73);
+}
+.countLabels {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ButtonsContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1595c7;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.25s 0.1s;
+}
+
+.buttons:hover {
+    background-color: #00b7ff;
+}
